@@ -1,7 +1,7 @@
 "use strict";
 
 var _ = require("lodash");
-var archetype = require("./config/archetype");
+var archetype = require("../archetype");
 var mergeWebpackConfig = archetype.devRequire("webpack-partial").default;
 var WebpackConfig = require("webpack-config").default;
 var getRootConfig = require("./get-root-config");

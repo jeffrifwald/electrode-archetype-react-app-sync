@@ -1,6 +1,6 @@
 "use strict";
 
-var archetype = require("./config/archetype");
+var archetype = require("../archetype");
 var _ = require("lodash");
 var fs = require("fs");
 var path = require("path");
