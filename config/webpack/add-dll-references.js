@@ -1,9 +1,10 @@
 "use strict";
 
+var archetype = require("./config/archetype");
 var _ = require("lodash");
 var fs = require("fs");
 var path = require("path");
-var glob = require("glob");
+var glob = archetype.devRequire("glob");
 var webpack = require("webpack");
 
 module.exports = function (config) {
